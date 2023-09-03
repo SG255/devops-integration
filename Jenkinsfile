@@ -24,7 +24,7 @@ pipeline{
             steps{
                 script{
                 
-                   sh 'docker login -u kumarsg137@gmail.com -p Aaradhya630$'
+                   sh 'docker login -u kumarsg137@gmail.com -p $'
 
 
                    sh 'docker push kumarsg137/devops-integration'
